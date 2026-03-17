@@ -1,4 +1,4 @@
-for i in range(65,69):
+for i in range(68,64,-1):
 	for b in range(i,64,-1):
 		print(chr(b),end="\t")
 	print()
