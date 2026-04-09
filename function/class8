@@ -277,9 +277,9 @@ Combining *args and **kwargs
 You can use both *args and **kwargs in the same function. However, *args must come before **kwargs in the function definition.
 
 Example:
-def display(*args, **kwargs):
-    print("Positional arguments:", args)
-    print("Keyword arguments:", kwargs)
+	def display(*args, **kwargs):
+	    print("Positional arguments:", args)
+	    print("Keyword arguments:", kwargs)
 
 # Calling with both positional and keyword arguments
 display(1, 2, 3, name="Alice", age=30)
@@ -527,7 +527,7 @@ balance= 7000
 
 
 
-call by value or call by refernce
+call by value or call by refernce`
 ___________________________________
 call by value (value send)  int,float complex string tuple
 def update(a):
@@ -658,13 +658,7 @@ print(x)
 
 
 4.py
-_________
-from mymod import *
-show()
-print(add(10,20))
-print(x)
-
-
+________
 
 show function
 30
